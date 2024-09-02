@@ -33,22 +33,4 @@ def merge_sort(arr):
 
 
 
-arr1 = [1, 3, 6, 9, 10, 23, 45]
-merge_sort(arr1)
-print(arr1)
-    
-arr2 = [45, 23, 10, 9, 6, 3, 1]
-merge_sort(arr2)
-print(arr2)    
-    
-arr3 = [1, 3, 3, 6, 6, 9, 9]
-merge_sort(arr3)
-print(arr3)    
-
-arr4 = [10, 5, 2, 8, 7, 1]
-merge_sort(arr4)
-print(arr4)
-
-
-
 
