@@ -1,3 +1,5 @@
+import time
+
 def merge_sort(arr):
     if len(arr) > 1:
         mid = len(arr) // 2
@@ -30,6 +32,7 @@ def merge_sort(arr):
             k += 1
 
 
+
 arr1 = [1, 3, 6, 9, 10, 23, 45]
 merge_sort(arr1)
 print(arr1)
@@ -45,3 +48,7 @@ print(arr3)
 arr4 = [10, 5, 2, 8, 7, 1]
 merge_sort(arr4)
 print(arr4)
+
+
+
+

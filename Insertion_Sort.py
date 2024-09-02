@@ -1,3 +1,4 @@
+import time
 def insert_sort(data):
     n = len(data)
 
@@ -14,7 +15,7 @@ def insert_sort(data):
         
         data[j + 1] = chave
 
-    
+start_time = time.time()
 arr1 = [1, 3, 6, 9, 10, 23, 45]
 insert_sort(arr1)
 print(arr1)
