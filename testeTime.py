@@ -60,10 +60,8 @@ selection_sort(arr3)
 
 selection_sort(arr4)
 
-end_time_selection = time.perf_counter()
+end_time_selection = time.perf_counter() 
 execution_time_selection = end_time_selection  - start_time_section
-
-
 
 print(f"Tempo de execução bubble: {execution_time_bubble} segundos")
 print(f"Tempo de execução insert: {execution_time_insert} segundos")
